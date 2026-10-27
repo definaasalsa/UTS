@@ -256,8 +256,6 @@ Rangkaian percobaan ini membawa saya dari kontrol lokal lewat serial, ke otomati
 3. Untuk tahap 3 dan 4, isi `BLYNK_TEMPLATE_ID`, `BLYNK_AUTH_TOKEN`, `ssid`, dan `pass` dengan data milik sendiri.
 4. Untuk tahap 2, jalankan `pip install pyserial matplotlib`, atur `PORT` di skrip, lalu `python imclab_modul2.py`.
 
-> **Peringatan keamanan:** jangan mengunggah `BLYNK_AUTH_TOKEN`, password WiFi, atau data pribadi ke GitHub. Gunakan placeholder seperti `ISI_AUTH_TOKEN` pada file yang di-commit.
-
 ## 10. Daftar Pustaka
 
 - Blynk Documentation, OTA firmware updates (Blynk.Air): https://docs.blynk.io/en/blynk.edgent/updating-devices-firmwares-ota
