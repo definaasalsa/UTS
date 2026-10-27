@@ -177,7 +177,7 @@ Memantau dan mengendalikan motor dari dashboard Blynk melalui internet.
 
 *Gambar 7. Serial Monitor: WiFi tersambung dan Blynk siap.*
 
-### Temuan
+### Analisis
 - Slider PWM, switch arah, dan switch LED di dashboard berhasil menggerakkan motor dan LED dari jarak jauh.
 - Ada jeda antara aksi di dashboard dan respons motor. Ping ke server Blynk tercatat sekitar 527 ms. `[isi: jeda yang kamu amati secara langsung]`
 - Kontrol internet lebih fleksibel karena bisa dilakukan dari mana saja, tetapi punya latensi dan bergantung pada kualitas jaringan. Ini berbeda dengan kontrol berkabel di tahap 1 dan 2 yang responsnya langsung.
@@ -224,7 +224,7 @@ Mengganti firmware ESP32 lewat jaringan, tanpa mencolokkan kabel USB, pada siste
 
 *Gambar 10. Sesudah update: V5 = 1.0.1 dan slider tertahan di 90.*
 
-### Temuan
+### Analisis
 - Firmware terkirim lewat WiFi hingga 100 persen tanpa kabel USB. Di ujung proses muncul peringatan `Unexpected response from device`, tetapi board tetap menjalankan firmware baru.
 - Keberhasilan update terlihat dari dua perubahan: label V5 berubah dari 1.0.0 menjadi 1.0.1, dan slider yang digeser ke 100 otomatis kembali ke 90.
 - Keuntungan OTA: tidak perlu akses fisik, cocok untuk perangkat yang sulit dijangkau, dan bisa dilakukan berulang kali.
