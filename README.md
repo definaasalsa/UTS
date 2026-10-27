@@ -128,7 +128,7 @@ waktu_s,pwm_bertanda_persen,rpm
 35.6536386013031,80,0.0
 ```
 
-### Temuan
+### Analisis
 - Pada PWM 60 dan 70 motor tidak menunjukkan gerakan, dan baru mulai berputar pada PWM 80. Hasil ini sama dengan pengamatan di tahap 1 dan memperkuat adanya zona mati.
 - Kolom `rpm` di CSV bernilai 0 di seluruh baris karena sensor tidak mendeteksi putaran (baling-baling patah). Jadi data tidak bisa dipakai untuk analisis kuantitatif, dan pembacaan hanya dilakukan secara kualitatif terhadap perilaku motor pada tiap PWM dan arah.
 - Keunggulan cara ini dibanding mengetik manual: pengujian bisa diulang dengan urutan yang sama, dan hasilnya tercatat sehingga dapat dianalisis ulang kapan saja.
