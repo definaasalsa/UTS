@@ -43,21 +43,6 @@ Keempat tahap berjalan sesuai tujuan. Satu hal yang perlu dicatat sejak awal: **
 
 Pin motor saya ambil dari kode referensi dosen (IN1 = 27, IN2 = 26, Enable = 12). Pin sensor putaran tidak tercantum di referensi, sehingga saya mencarinya dengan sketch pemindai pin.
 
-**Isi repositori**
-
-```
-.
-├── README.md
-├── modul1/imclab_modul1.ino
-├── modul2/imclab_modul2.py
-├── modul3/imclab_modul3_blynk.ino
-├── modul4/imclab_modul4_final.ino
-├── tools/        (motor_test, pin_scanner, pin_auto)
-└── images/       (screenshot dan foto)
-```
-
----
-
 ## 3. Tahap 1: Kontrol Dasar lewat Serial
 
 ### Yang ingin dicapai
